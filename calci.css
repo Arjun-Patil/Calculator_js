@@ -1,0 +1,68 @@
+main {
+  font-family: sans-serif;
+  margin: 30px auto 0 auto;
+  width: 500px;
+}
+
+.head {
+  text-align: center;
+  padding-right: 60px;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.result {
+  display: flex;
+  width: 90%;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 40px;
+  margin-right: 10px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+input[type="button"] {
+  width: 20%;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.table-main {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-row {
+  line-height: 80px;
+}
+
+td button {
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+}
+.k button {
+  font-size: 100px;
+}
+
+.enter {
+  background-color: #66de93;
+}
+
+.clear {
+  background-color: #da0037;
+}
+
+.back {
+  background-color: #ff616d;
+}
